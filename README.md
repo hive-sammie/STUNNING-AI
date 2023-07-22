@@ -8,7 +8,7 @@ A MULTI DEVICE PROJECT
 
 <p align="center">
   <a href="https://instagram.com/abd_khadher___">
-    <img alt="khadher.inc docs" height="300" src="https://imgur.com/a/Mg41VUV.jpeg">
+    <img alt="khadher.inc docs" height="300" src="https://github.com/Khadher555/STUNNIG-AI/blob/main/lib/assets/khadher.inc.png">
   </a>
 </p>
   
@@ -29,7 +29,7 @@ A MULTI DEVICE PROJECT
 
 <p align="center"><img src="https://profile-counter.glitch.me/{Khadher555}/count.svg" alt="Khadher555 :: Visitor's Count" /></p>
 
-  <p align="center"> Introducing STUNNING AI,STUNNING AU is designed to bring a whole new level of excitement to your boring WhatsApp use. </p
+  <p align="center"> Introducing STUNNING AI,STUNNING AI is designed to bring a whole new level of excitement to your boring WhatsApp use. </p
   
  ## Deployment Methods
 ---
@@ -49,6 +49,6 @@ mongodb+srv://levela6788:khaddki77@botsss.3mvlblp.mongodb.net/?retryWrites=true&
 - Star ⭐ repo if you like this bot.
 
 
-The Secktor is made available under the [GPL-3 license](https://github.com/Khadher555/STUNNING-AI/blob/main/LICENCE).
+The stunning ai is made available under the [GPL-3 license](https://github.com/Khadher555/STUNNING-AI/blob/main/LICENCE).
 
 ##Deploy on [`heroku`]( https://dashboard.heroku.com/new?template=https://github.com/Khadher555/STUNNING-AI)
