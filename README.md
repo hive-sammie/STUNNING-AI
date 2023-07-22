@@ -1,2 +1,4 @@
 # upgraded-ai
-A MULTI DEVICE PROJECT.                                 MADE BY : khadher.inc : TEAM
+A MULTI DEVICE PROJECT
+
+## MADE BY khadher.inc TEAM
