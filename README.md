@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://instagram.com/abd_khadher___">
-    <img alt="khadher.inc docs" height="300" src="https://github.com/Khadher555/STUNNIG-AI/blob/main/lib/assets/khadher.inc.png">
+    <img alt="khadher.inc docs" height="300" src="https://github.com/Khadher555/STUNNIG-AI/blob/main/lib/assets/khadherinc.png">
   </a>
 </p>
   
