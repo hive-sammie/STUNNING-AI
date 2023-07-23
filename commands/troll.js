@@ -1,6 +1,6 @@
 cmd({
     pattern: "troll",
-    desc: "making trolls"
+    desc: "making trolls",
     category: "fun",         
     react: "😐"
   },
