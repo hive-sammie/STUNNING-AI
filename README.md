@@ -1,16 +1,14 @@
-# upgraded-ai
-## MADE BY khadher.inc TEAM
-
-
-
-
-  
-   
+# STUNNING AI ⨻ WICKIE MD
 <p align="center">
 
   <a aria-label="Join our chats" href="https://wa.me/917560920774?text=Hi+Bro,+I+Need+Help+\nI+messaged+you+from+stunning ai+Repo" target="_blank">
     <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
+•••••••••••••••••••••••••••••••••••••••••••••
+
+### MADE BY khadher.inc 
+## THANKS TO ALL TO HELP TO DEVELOP THIS💗
+
  
   <a aria-label="STUNNING AI is free to use" href="https://github.com/Khadher555/STUNNING-AI/blob/main/LICENCE" target="_blank">
     <img alt="License: GPL-3" src="https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://opensource.org/licenses/GPL-3.0/" target="_blank" />
@@ -20,9 +18,6 @@
 
 ---
 
-<p align="center"><img src="https://profile-counter.glitch.me/{Khadher555}/count.svg" alt="Khadher555 :: Visitor's Count" /></p>
-
-  <p align="center"> Introducing STUNNING AI,STUNNING AI is designed to bring a whole new level of excitement to your boring WhatsApp use. </p
   
  ## Deployment 
 -----------------
