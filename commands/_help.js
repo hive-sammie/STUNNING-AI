@@ -92,7 +92,7 @@ khadherinc.cmd({
         }
     )
     //---------------------------------------------------------------------------
-Secktor.cmd({
+khadherinc.cmd({
             pattern: "list",
             desc: "list menu",
             category: "general"
@@ -124,7 +124,7 @@ for (let i = 0; i < commands.length; i++)
         }
     )
     //---------------------------------------------------------------------------
-Secktor.cmd({
+khadherinc.cmd({
         pattern: "owner",
         desc: "To find owner number",
         category: "general",
@@ -161,7 +161,7 @@ Secktor.cmd({
     }
 )
 
-Secktor.cmd({
+khadherinc.cmd({
     pattern: "file",
     desc: "to get extact name where that command is in repo.\n.",
     category: "general",
