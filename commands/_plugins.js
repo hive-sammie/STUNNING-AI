@@ -3,9 +3,9 @@
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
+ * @project_name : STUNNING-AI
+ * @author : Khadher555 <https://github.com/Khadher555>
+ * @description : stunning ai,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
 const axios = require('axios');
@@ -41,7 +41,7 @@ cmd({
         if (!isCreator) return citel.reply(tlang().owner)
         if(text==='all') {
          await plugindb.collection.drop()
-         return citel.reply('Deleted all plugins from Secktor.')
+         return citel.reply('Deleted all plugins from Stunning ai.')
         }
         let kill = await remove(text.split(" ")[0])
         delete require.cache[require.resolve(__dirname+"/" + text + ".js")];
