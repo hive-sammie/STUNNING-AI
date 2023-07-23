@@ -12,7 +12,7 @@
   },
    "THUMB_IMAGE": {
     "description": "BOT LOGO.",
-     "value": "https://imgur.com/a/Mg41VUV"
+     "value": "https://imgur.io/zVId3Cq"
     },
  "HEROKU_API_KEY": {
     "description": "Put Your Heroku Api Key Here[ Heroku >> my account >> api key ",
@@ -72,12 +72,12 @@
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
-       "value": "",
+       "value": "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",
        "required" :false
   },
   "WELCOME_MESSAGE": {
     "description": "Enter the message here which you want to see in Welcome when a new user joins a Group.",
-       "value": "@user @pp Welcome Bruhhh In @gname.....!!!!!😊👇🏻♥️\n\n_GROUP DESCRIPTION_\n@desc\n\n\n__________\n Support us by Subscribing \n Youtube.com/@suhailtechinfo0",
+       "value": "@user @pp Welcome Bruhhh In @gname.....!!!!!😊👇🏻♥️\n\n_GROUP DESCRIPTION_\n@desc\n\n\n__________\n ",
        "required" :false
   },
   "MONGODB_URI": {
