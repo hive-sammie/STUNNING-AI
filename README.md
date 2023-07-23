@@ -4,11 +4,6 @@
 
 
 
-<p align="center">
-  <a href="https://instagram.com/abd_khadher___">
-    <img alt="khadher.inc docs" height="300" src="https://github.com/Khadher555/STUNNIG-AI/blob/main/lib/assets/khadherinc.png">
-  </a>
-</p>
   
    
 <p align="center">
@@ -29,13 +24,13 @@
 
   <p align="center"> Introducing STUNNING AI,STUNNING AI is designed to bring a whole new level of excitement to your boring WhatsApp use. </p
   
- ## Deployment Methods
----
-1. ***Get [`SESSION ID`](https://replit.com/)  by scanning QR code. `Whatapp>Three dots>Linked Devices`***
-2.  ***Get a Mongodb uri from [`Mongodb`]()
-3.  ***Click [`FORK`](https://github.com/Khadher555/STUNNING-AI/fork)***
-6.  ***Deploy on [`Replit`](https://repl.it/github/)***
-##
+ ## Deployment 
+-----------------
+1. [QR CODE](https://shorturl.at/ejGT5 )
+2. [Make an heroku account]( heroku.com/signup )
+3. [deploy]( rebrand.ly/pq1lkvp ) 
+
+
 
 
    ***Use this Public MongoDb Key, If you dont have.!***
@@ -49,4 +44,3 @@ mongodb+srv://levela6788:khaddki77@botsss.3mvlblp.mongodb.net/?retryWrites=true&
 
 The stunning ai is made available under the [GPL-3 license](https://github.com/Khadher555/STUNNING-AI/blob/main/LICENCE).
 
-##Deploy on [`heroku`]( https://dashboard.heroku.com/new?template=https://github.com/Khadher555/STUNNING-AI)
