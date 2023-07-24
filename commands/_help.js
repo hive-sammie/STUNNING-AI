@@ -175,11 +175,11 @@ async(Void, citel, text) => {
  const { commands } = require('../lib');
  let arr = [];
         const cmd = commands.find((cmd) => cmd.pattern === (text.split(" ")[0].toLowerCase()))
-        if (!cmd) return await citel.reply("*❌No Such commands.*");
-        else arr.push(`*🍁Command:* ${cmd.pattern}`);
-        if (cmd.category) arr.push(`*🧩Type:* ${cmd.category}`);
-        if(cmd.filename) arr.push(`✨FileName: ${cmd.filename}`)
-        return await citel.reply(arr.join('\n'));
+                if (!cmd) return await citel.reply("*❌No Such commands.*");
+                else arr.push(`*🍁Command:* ${cmd.pattern}`);
+                if (cmd.category) arr.push(`*🧩Category:* ${cmd.category}`);
+                if (cmd.filename) arr.push(`*⚙️filename:* ${cmd.filename}\`\`\``);
+                return await citel.reply(arr.join('\n'));
 
 
 })
