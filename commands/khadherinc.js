@@ -1,4 +1,4 @@
-_const { tlang,cmd,getBuffer } = require('../lib')
+const { tlang,cmd,getBuffer } = require('../lib')
 const Config = require('../config')
 const axios = require('axios')
 var nicetitle = 'STUNNING AI ⨻ WICKIE MD'
