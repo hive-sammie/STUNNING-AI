@@ -2,7 +2,7 @@ const { tlang,cmd,getBuffer } = require('../lib')
 const Config = require('../config')
 const axios = require('axios')
 var nicetitle = 'STUNNING AI ⨻ WICKIE MD'
-var nicebody = "|| â—ã…¤âšâšã…¤â–·||ã…¤ â†»"
+var nicebody = "|| ◁ㅤ❚❚ㅤ▷|| "
 var niceurl = 'https://instagram.com/abd_khadher___'
 const nicepic = 'https://i.imgur.com/RpDtQ4U.jpg';
 /*
