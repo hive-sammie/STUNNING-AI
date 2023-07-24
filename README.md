@@ -23,7 +23,7 @@
 -----------------
 1. [QR CODE](https://shorturl.at/ejGT5 )
 2. [Make an heroku account]( heroku.com/signup )
-3. [deploy](https://dashboard.heroku.com/new?template=https://github.com/Khadher555/STUNNING-AI) )
+3. [deploy](https://dashboard.heroku.com/new?template=https://github.com/Khadher555/STUNNING-AI) 
 
    ***Use this Public MongoDb Key, If you dont have.!***
 ```
