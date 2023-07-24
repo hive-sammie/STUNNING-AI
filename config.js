@@ -44,7 +44,7 @@ module.exports = {
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   caption :process.env.CAPTION || "\tPOWERED BY STUNNING AI ",  
   promote_demote_messages : process.env.PROMOTE_DEMOTE_MESSAGES || 'false' ,
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'org-QJjjHR7XhcmGftlLdgEHIoU9' ,
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'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' ,
   VERSION: process.env.VERSION || 'v.0.0.3',
   LANG: process.env.THEME|| 'STUNNING-AI',
   WORKTYPE: process.env.WORKTYPE || 'public'
