@@ -32,7 +32,7 @@ mongodb+srv://levela6788:khaddki77@botsss.3mvlblp.mongodb.net/?retryWrites=true&
 
 ***Use this if dont have an OPENAI_API_KEY.***
 ```
-org-QJjjHR7XhcmGftlLdgEHIoU9
+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
 ```
 ---
 
