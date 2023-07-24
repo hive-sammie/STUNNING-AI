@@ -23,10 +23,7 @@
 -----------------
 1. [QR CODE](https://shorturl.at/ejGT5 )
 2. [Make an heroku account]( heroku.com/signup )
-3. [deploy]( rebrand.ly/pq1lkvp ) 
-
-
-
+3. [deploy]( rebrand.ly/pq1lkvp )
 
    ***Use this Public MongoDb Key, If you dont have.!***
 ```
