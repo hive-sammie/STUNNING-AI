@@ -18,7 +18,7 @@ cmd({
         if (!text) return citel.reply(`Hey there! ${citel.pushName}. How are you doing these days?`);
         const { Configuration, OpenAIApi } = require("openai");
         const configuration = new Configuration({
-            apiKey: Config.OPENAI_API_KEY || "org-QJjjHR7XhcmGftlLdgEHIoU9",
+            apiKey: Config.OPENAI_API_KEY || "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",
         });
         const openai = new OpenAIApi(configuration);
         const completion = await openai.createCompletion({
