@@ -88,7 +88,9 @@ cmd({
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 1.0.0
-*👤Owner:*  ${Config.ownername}
+*👤Owner:*  KHADHER
+----------------------------
+*USER:*  ${Config.ownername}
 *Powered by ${tlang().title}*
 `;
         let buttonMessaged = {
