@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'askdog',
+    pattern: 'askdog',
     category: 'troll',
     desc: 'Makes troll image of given text.',
     async exec(citel, Void,args) {
