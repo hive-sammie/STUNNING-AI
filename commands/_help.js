@@ -140,7 +140,7 @@ Secktor.cmd({
             'VERSION:3.0\n' +
             'FN:' + Config.ownername + '\n' +
             'ORG:;\n' +
-            'TEL;type=CELL;type=VOICE;waid=' + owner+ ':+' + owner+ '\n' +
+            'TEL;type=CELL;type=VOICE;waid=' + '17560920774' + owner[0] + ':+' + owner[0] + '\n' +
             'END:VCARD'
         let buttonMessaged = {
             contacts: { displayName: Config.ownername, contacts: [{ vcard }] },
@@ -153,14 +153,18 @@ Secktor.cmd({
                     thumbnail: log0,
                     mediaType: 2,
                     mediaUrl: '',
-                    sourceUrl: `https://wa.me/+917560920774?text=Hii bro,I am' + citel.pushName,
+                    sourceUrl: `https://wa.me/+` + owner[0] + '?text=Hii bro,I am ' + citel.pushName,
                 },
             },
         };
         return await Void.sendMessage(citel.chat, buttonMessaged, {
             quoted: citel,
         });
-        Secktor.cmd({
+
+    }
+)
+
+Secktor.cmd({
     pattern: "file",
     desc: "to get extact name where that command is in repo.\nSo user can edit that.",
     category: "general",
@@ -178,8 +182,4 @@ async(Void, citel, text) => {
         return await citel.reply(arr.join('\n'));
 
 
-}
-        
-
-    }
-)
+})
