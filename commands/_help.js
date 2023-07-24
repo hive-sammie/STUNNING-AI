@@ -140,7 +140,7 @@ Secktor.cmd({
             'VERSION:3.0\n' +
             'FN:' + Config.ownername + '\n' +
             'ORG:;\n' +
-            'TEL;type=CELL;type=VOICE;waid=' + '17560920774' + owner[0] + ':+' + owner[0] + '\n' +
+            'TEL;type=CELL;type=VOICE;waid=' + owner[0] + ':+' + owner[0] + '17560920774' + '\n' +
             'END:VCARD'
         let buttonMessaged = {
             contacts: { displayName: Config.ownername, contacts: [{ vcard }] },
