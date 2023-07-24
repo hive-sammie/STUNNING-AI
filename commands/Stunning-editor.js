@@ -1,7 +1,7 @@
 
 cmd({
     pattern: "editorpack",
-    desc: "edit photo",
+    desc: "edit",
     category: "photo editor",         
     react: "😐"
   },
