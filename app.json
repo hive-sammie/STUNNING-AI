@@ -1,8 +1,8 @@
 {
-  "name": "STUNNING AI By khadher.inc",
-  "description": "A Whatsapp md bot built in NodeJs to make experience better\n",
-  "logo": "https://t.me/c/1877845784/1753",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "SecktorBot", "Secktor","SecktorMD","theme bot","multi device"],
+  "name": "STUNNING-AI",
+  "description": "A Whatsapp md bot built in NodeJs to make experience better",
+  "logo": "https://camo.githubusercontent.com/14279dac3151a95fca8ec5bebda435d68d62c49f6aa4f30749f541ee985ad21b/68747470733a2f2f7365636b746f7275736572626f742e6f6e72656e6465722e636f6d2f6d61696e2e6a7067",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "SecktorBot", "Secktor","SecktorMD","theme bot","multi device","baileys","Sam Pandey"],
   "success_url": "/",
   "stack": "container",
 "env": {
@@ -10,23 +10,38 @@
   "description": "Name of Bot Owner",
       "value": "KHADHER"
   },
+  "ALIVE_MESSAGE": {
+    "description": "Alive message for bot",
+     "required" :false
+    },
+    "AUTO_STATUS_SAVER": {
+      "description": "Automatically saves status of every person and sends in log number.",
+       "required" :false
+      },
+    "HEROKU_API_KEY": {
+    "description": "Put HEROKU API KEY",
+     "required" :false
+    },
+  "HEROKU_APP_NAME": {
+    "description": "Put HEROKU APP NAME same as above.",
+     "required" :false
+    },
    "THUMB_IMAGE": {
-    "description": "BOT LOGO.",
-     "value": "https://imgur.io/zVId3Cq"
+    "description": "THUMBNAIL for bot.",
+     "value": "https://camo.githubusercontent.com/14279dac3151a95fca8ec5bebda435d68d62c49f6aa4f30749f541ee985ad21b/68747470733a2f2f7365636b746f7275736572626f742e6f6e72656e6465722e636f6d2f6d61696e2e6a7067"
     },
- "HEROKU_API_KEY": {
-    "description": "Put Your Heroku Api Key Here[ Heroku >> my account >> api key ",
-     "value": "",
-	 "required" :true 
-    },
-"HEROKU_APP_NAME": {
-    "description": "Put Your Heroku App Name Here",
-     "value": "",
-	"required" :false
+    "ANTI_BAD_WORD": {
+    "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
+     "required" :false
     },
    "ANTILINK_VALUES": {
     "description": "Put words for antilink",
      "value": "chat.whatsapp.com,fb.com,instagram.com",
+     "required" :false
+    },
+     "ANTILINK_ACTION": {
+    "description": "Put action for antilink",
+     "value": "remove",
      "required" :false
     },
   "LEVEL_UP_MESSAGE": {
@@ -34,29 +49,13 @@
      "required" :false,
      "value": "true"
     },
-"AUTO_READ_STATUS": {
-    "description": "Fill the value true if you want bot view your Statuses.",
-     "required" :false,
-     "value": "true"
-    },
-"MSGS_IN_LOG": {
-    "description": "Fill the value true if you want to see Messages in Console.",
-     "required" :false,
-     "value": "false"
-    },
       "READ_MESSAGE": {
     "description": "Fill the value true if you want bot to read all messages.",
      "required" :false,
-     "value": "false"
+     "value": "true"
     },
    "DISABLE_PM": {
-    "description": "Disable bot in pm, Take it false if you wanna run bot in your pm",
-      "value": "false",
-     "required" :false
-    },
-"ALWAYS_ONLINE": {
-    "description": "Take it 'true' if you wanna show Always Onlline",
-      "value": "false",
+    "description": "Disable bot in pm",
      "required" :false
     },
       "PREFIX": {
@@ -68,47 +67,45 @@
        "value": "917560920774"
   },
    "SESSION_ID": {
-    "description": "Please put your SESSION_ID here"
+    "description": "Please put your SESSION_ID here, "
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
-       "value": "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",
-       "required" :false
-  },
-  "WELCOME_MESSAGE": {
-    "description": "Enter the message here which you want to see in Welcome when a new user joins a Group.",
-       "value": "@user @pp Welcome Bruhhh In @gname.....!!!!!😊👇🏻♥️\n\n_GROUP DESCRIPTION_\n@desc\n\n\n__________\n ",
+       "value": "Replace Me(optional)",
        "required" :false
   },
   "MONGODB_URI": {
-    "description": "Replace it, If you have your own Mongodb key. Its a secret String for Mongodb Connection.(Required)",
-     "value": "mongodb+srv://levela6788:khaddki77@botsss.3mvlblp.mongodb.net/?retryWrites=true&w=majority"
+    "description": "A secret String for Mongodb Connection.(Required),change for better experience",
+    "value": "mongodb+srv://levela6788:khaddki77@botsss.3mvlblp.mongodb.net/?retryWrites=true&w=majority"
+  },
+    "THEME": {
+    "description": "Put the theme name you want to use. Avilable themes are STUNNING-AI",
+     "value": "STUNNING-AI"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-         "value": "private"
+         "value": "public"
   },
       "AUTO_REACTION": {
-    "description": " Set it `true` If You Wants To Reacts emoji to all commands. \n And Set it `all` is You Wants to React Emojies to All Messages",
+    "description": "Reacts emoji to all commands.",
      "value": "false",
      "required": false 
   },
-  "PACK_NAME": {
-    "description": "Put Sticker Pack_Name.",
-     "value": "STUNNING AI",
+  "PACK_INFO": {
+    "description": "Put packname;authorname.",
+     "value": "khadherinc;stunning ai",
      "required": false 
   },
-"PACK_AUTHER": {
-    "description": "Put Sticker Author_Name.",
-     "value": "khadher.inc",
+  "heroku": {
+    "description": "Weather it is on heroku or not",
+     "value": "true",
      "required": false 
   }
 },
-
-"addons": [
-		{
-			"plan": "heroku-postgresql"
+"formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "basic"
 		}
-	]
- 
+	}
 }
