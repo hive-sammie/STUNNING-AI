@@ -29,6 +29,11 @@
 ```
 mongodb+srv://levela6788:khaddki77@botsss.3mvlblp.mongodb.net/?retryWrites=true&w=majority
 ```
+
+***Use this if dont have an OPENAI_API_KEY.***
+```
+org-QJjjHR7XhcmGftlLdgEHIoU9
+```
 ---
 
 - Star ⭐ repo if you like this bot.
