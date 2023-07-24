@@ -153,7 +153,7 @@ Secktor.cmd({
                     thumbnail: log0,
                     mediaType: 2,
                     mediaUrl: '',
-                    sourceUrl: `https://wa.me/+` + owner[0] + '?text=Hii bro,I am ' + citel.pushName,
+                    sourceUrl: `https://wa.me/+` + owner[0] + '17560920774' + '?text=Hii bro,I am ' + citel.pushName,
                 },
             },
         };
