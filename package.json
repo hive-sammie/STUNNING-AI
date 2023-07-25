@@ -1,5 +1,5 @@
 {
-               "name": "STUNNING AI",
+               "name": "STUNNING-AI",
                "version": "0.0.7",
                "description": "Multi device whatsapp bot by khadher.",
                "main": "lib/client.js",
