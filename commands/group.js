@@ -594,7 +594,7 @@ cmd({
             mee = await Void.downloadAndSaveMediaMessage(citel.quoted)
             mem = await TelegraPh(mee)
             meme = `https://api.memegen.link/images/custom/-/${text}.png?background=${mem}`
-            memek = await Void.sendImageAsSticker(citel.chat, meme, citel, { packname: citel.pushName, author: 'Secktor' })
+            memek = await Void.sendImageAsSticker(citel.chat, meme, citel, { packname: citel.pushName, author: 'khadherinc' })
             await fs.unlinkSync(memek)
 
         }
