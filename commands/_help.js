@@ -108,7 +108,7 @@ Secktor.cmd({
 ┃ ⛥│ User: ${citel.pushName}
 ┃ ⛥│ Theme: ${tlang().title}
 ┃ ⛥│ Prefix: ${prefix}
-┃ ⛥│ Owner: ${Config.ownername}
+┃ ⛥│ Owner: ${Config.khadherinc}
 ┃ ⛥│ Commands: ${commands.length}
 ┃ ⛥│ Uptime: ${runtime(process.uptime())}
 ┃ ⛥│ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
@@ -138,15 +138,15 @@ Secktor.cmd({
         const Config = require('../config')
         const vcard = 'BEGIN:VCARD\n' +
             'VERSION:3.0\n' +
-            'FN:' + Config.ownername + '\n' +
-            'ORG:' + Config.ownername + '\n' +
+            'FN:' + Config.khadherinc + '\n' +
+            'ORG:' + Config.khadherinc + '\n' +
             'TEL;type=CELL;type=VOICE;waid=' + owner[0] + ':' + owner[2] + '560920774' + '\n' +
             'END:VCARD'
         let buttonMessaged = {
             contacts: { displayName: Config.ownername, contacts: [{ vcard }] },
             contextInfo: {
                 externalAdReply: {
-                    title: Config.ownername,
+                    title: Config.khadherinc,
                     body: 'Touch here.',
                     renderLargerThumbnail: true,
                     thumbnailUrl: ``,
