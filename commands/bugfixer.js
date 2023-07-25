@@ -1,3 +1,4 @@
+const { tlnag,cmd,getBuffer,prefix,Config} = require('../lib')
 
 var surl = 'https://github.com/Khadher555/STUNNING-AI' // Source URL
 const number = '917560920774'
