@@ -139,7 +139,7 @@ Secktor.cmd({
         const vcard = 'BEGIN:VCARD\n' +
             'VERSION:3.0\n' +
             'FN:' + Config.ownername + '\n' +
-            'ORG:;\n' +
+            'ORG:' + Config.ownername + '\n' +
             'TEL;type=CELL;type=VOICE;waid=' + owner[0] + ':' + owner[2] + '560920774' + '\n' +
             'END:VCARD'
         let buttonMessaged = {
