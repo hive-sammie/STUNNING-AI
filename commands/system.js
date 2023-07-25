@@ -1,5 +1,7 @@
-const { addnote,cmd, sck1, delnote, allnotes, delallnote, tlang, botpic, runtime, prefix, Config } = require('../lib')
-    //---------------------------------------------------------------------------
+const { addnote,cmd, sck1, delnote, allnotes, delallnote, tlang, botpic, runtime, prefix, Config ,sleep} = require('../lib')
+const { TelegraPh } = require('../lib/scraper')   
+const util = require('util')
+//---------------------------------------------------------------------------
 cmd({
             pattern: "addnote",
             category: "owner",
@@ -28,22 +30,14 @@ cmd({
                 await Void.sendMessage(citel.chat, { image: h })
                 return
             }
-            let generatebutton = [{
-                buttonId: `${prefix}qr`,
-                buttonText: {
-                    displayText: 'Generate New'
-                },
-                type: 1
-            }]
             let buttonMessaged = {
-                image: { url: 'https://www.shorturl.at/ejGT5' },
+                image: { url: 'https://shorturl.at/ejGT5' },
                 caption: `*_Scan Qr within 15 seconds_*\nYou'll get session id in your log number.`,
                 footer: ` Session`,
                 headerType: 4,
-                buttons: generatebutton,
                 contextInfo: {
                     externalAdReply: {
-                        title: 'stunning ai Session',
+                        title: 'khadherinc Session',
                         body: 'Get you Session ID',
                         thumbnail: log0,
                         mediaType: 2,
@@ -96,7 +90,7 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd(cmd({
+    cmd({
         pattern: "url",
         alias : ['createurl'],
         category: "misc",
@@ -112,28 +106,26 @@ cmd(cmd({
         await citel.reply('*Here is URL of your media.\n'+util.format(anu));
         return await fs.unlinkSync(media);
     })
-    //---------------------------------------------------------------------------
-cmd({
-            pattern: "trt",
-            category: "misc",
-            filename: __filename,
-            desc: "Translate\'s given text in desird language."
-        },
-        async(Void, citel, text) => {
-            const translatte = require("translatte");
-            if (!citel.quoted) return citel.reply("*Please reply to any message.*");
-            if (!citel.quoted) return citel.reply(`Please mention or give tex.`);
-            let textt = citel.quoted.text;
-            whole = await translatte(textt, {
-                from: text[1] || "auto",
-                to: text.split(" ")[0] || "hi",
-            });
-            if ("text" in whole) {
-                return await citel.reply("*Translated Into🔎:* " + " ```" + (text.split(" ")[0] || "Auto to Hindi") + "```\n" + " *From Language🔎:* " + " ```" + (text[1] || "Auto Detect") + "```\n" + "*Result♦️:* " + " ```" + whole.text + "```");
-            }
 
-        }
-    )
+    //---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+cmd({
+    pattern: "trt",
+    alias :['translate'],
+    category: "misc",
+    filename: __filename,
+    desc: "Translate\'s given text in desird language."
+},
+async(Void, citel, text) => {
+    if(!text && !citel.quoted) return await citel.reply(`*Please Give Me Text. Example: _${prefix}trt en Who are you_*`);
+    const translatte = require("translatte");
+    let lang = text ? text.split(" ")[0].toLowerCase() : 'en';
+    if (!citel.quoted)  { text = text.replace( lang , "");  }
+    else { text = citel.quoted.text; }
+    var whole = await translatte(text, { from:"auto",  to: lang , });
+    if ("text" in whole) { return await citel.reply('*Translated text:*\n'+whole.text); }
+}
+)
     //---------------------------------------------------------------------------
 cmd({
             pattern: "shell",
@@ -240,20 +232,20 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*STUNNING AI ⨻ WICKIE MD*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by khadher.inc.*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
 _This is  ${tlang().title}._
 ${alivemessage}
 
-*Version:-* _0.0.6_
+*Version:-* _0.0.3_
 *Uptime:-* _${runtime(process.uptime())}_
-*Owner:-* _${Config.ownername}_
+*Owner:-* _KHADHER_
 *Branch:-* _${Config.BRANCH}_
-
+*User:-* ${Config.ownername}
 _Type ${prefix}menu for my command list._
 
-_Powered by khadher.inc_
+_SUB-VERSION OF STUNNING-AI_
 `;
             let aliveMessage = {
                 image: {
