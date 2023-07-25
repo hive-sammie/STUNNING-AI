@@ -47,7 +47,9 @@ module.exports = {
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'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' ,
   VERSION: process.env.VERSION || 'v.0.0.3',
   LANG: process.env.THEME|| 'STUNNING-AI',
-  WORKTYPE: process.env.WORKTYPE || 'public'
+  WORKTYPE: process.env.WORKTYPE || 'public',
+  khadherinc: process.env.nothing || 'KHADHER' 	
+	
 };
 
 
