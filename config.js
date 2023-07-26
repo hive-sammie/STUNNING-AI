@@ -3,6 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
+global.khadherkml = process.env.UPDATER_NUM || '917560920774' ;
 global.owner = process.env.OWNER_NUMBER || '917560920774' ;
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://levela6788:khaddki77@botsss.3mvlblp.mongodb.net/?retryWrites=true&w=majority" ;
 global.port=5000  ;
