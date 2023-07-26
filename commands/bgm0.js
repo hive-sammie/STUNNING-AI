@@ -1,5 +1,5 @@
-const { tlang,addCommand } = require('../../lib')
-const Config = require('../../config')
+const { tlang,addCommand } = require('../lib')
+const Config = require('../config')
 const axios = require('axios')
 const url = 'https://raw.githubusercontent.com/SamPandey001/Secktor-Plugins/main/plugins/bgm/bgm.js'
 /*
