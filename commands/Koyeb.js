@@ -5,10 +5,10 @@ const { redeploy , getvar , delvar , getallvar , change_env , get_deployments} =
 //----------------------------------------------------------------------------------------------------------------------------------------------------
 cmd(
   {
-    pattern: "updatenow",
+    pattern: "kupdatenow",
     desc: "update bot with refreshed commit.",
     filename: __filename,
-    category: "DEVELOPER",
+    category: "koyeb",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().khadherkml);
@@ -23,7 +23,7 @@ cmd(
     pattern: "getvar",
     desc: "get desired var from koyeb.",
     filename: __filename,
-    category: "DEVELOPER",
+    category: "koyeb",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().khadherkml);
@@ -37,7 +37,7 @@ cmd(
     pattern: "getallvar",
     desc: "get all vars from koyeb.",
     filename: __filename,
-    category: "DEVELOPER",
+    category: "koyeb",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().khadherkml);
@@ -50,7 +50,7 @@ cmd(
     pattern: "setvar",
     desc: "set var in koyeb.",
     filename: __filename,
-    category: "DEVELOPER",
+    category: "koyeb",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().khadherkml);
@@ -67,7 +67,7 @@ cmd(
     pattern: "delvar",
     desc: "delete var from koyeb.",
     filename: __filename,
-    category: "DEVELOPER",
+    category: "koyeb",
   },
   async (Void,citel,text,{isCreator}) => {
        if(!isCreator) return citel.reply(tlang().khadherkml);
