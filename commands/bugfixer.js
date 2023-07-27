@@ -1,7 +1,7 @@
 const { tlnag,cmd,getBuffer,prefix,Config} = require('../lib')
 cmd({
     pattern: "intro",
-    desc: "give owner details"
+    desc: "give owner details",
     category: "owner",         
     react: "✅"
   },
