@@ -49,7 +49,7 @@ module.exports = {
   LANG: process.env.THEME|| 'STUNNING-AI',
   WORKTYPE: process.env.WORKTYPE || 'public',
   khadherinc: process.env.nothing || 'KHADHER',
-  khadherkml = process.env.UPDATER_NUM || '917560920774'	
+  khadherkml: process.env.UPDATER_NUM || '917560920774'	
 };
 
 
