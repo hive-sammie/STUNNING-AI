@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { tlang,cmd } = require('../lib')
+const { tlang,cmd ,khadherkml} = require('../lib')
 const { redeploy , getvar , delvar , getallvar , change_env , get_deployments} = require('../lib/koyeb')
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------
