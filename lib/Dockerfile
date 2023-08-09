@@ -1,4 +1,4 @@
-FROM quay.io/khadherinc/khadherinc
+FROM quay.io/sampandey001/secktor
 RUN git clone https://github.com/Khadher555/STUNNING-AI /root/STUNNINGAI
 WORKDIR /root/STUNNINGAI/
 RUN npm install npm@latest
